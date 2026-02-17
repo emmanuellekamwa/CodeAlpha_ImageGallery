@@ -50,6 +50,7 @@ h1 {
 .filter_button { 
     display: flex; 
     align-items: center; 
+    flex-wrap: wrap;
     gap: 10px; 
 }
 
@@ -79,6 +80,10 @@ button.active {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
     margin-top: 30px;
+}
+
+.img.hide {
+    display: none;
 }
 
 .gallery img { 
