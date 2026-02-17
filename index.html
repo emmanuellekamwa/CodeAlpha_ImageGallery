@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="lightbox.css">
     <script src="script.js"></script>
     <title>Image Gallery</title>
 </head>
@@ -17,16 +18,32 @@
             <button data-name="ai image">AI images</button>
         </div>
         <div class="gallery">
-            <img src="images/white1.png" alt="White person 1">
-            <img src="images/white2.png" alt="White person 2">
-            <img src="images/white3.png" alt="White person 3">
-            <img src="images/black1.png" alt="Black person 1">
-            <img src="images/black2.png" alt="Black person 2"> 
-            <img src="images/black3.png" alt="Black person 3"> 
-            <img src="images/img1.png" alt="AI image 1"> 
-            <img src="images/img2.png" alt="AI image 2"> 
-            <img src="images/img3.png" alt="AI image 3">
+            <a href="images/white1.png" data-lightbox="models" data-title="Model1">
+                <img src="images/white1.png" alt="White person 1">
+            </a>
+            <a href="images/white2.png" data-lightbox="models" data-title="Model2">
+                <img src="images/white2.png" alt="White person 2">
+            </a>
+            <a href="images/white3.png" data-lightbox="models" data-title="Model3">
+                <img src="images/white3.png" alt="White person 3">
+            </a>
+            <a href="images/black1.png" data-lightbox="models" data-title="Myself1">
+                <img src="images/black1.png" alt="Black person 1">
+            </a>
+            <a href="images/black2.png" data-lightbox="models" data-title="Black lady">
+                <img src="images/black2.png" alt="Black person 2"> 
+            </a>
+            <a href="images/black3.png" data-lightbox="models" data-title="Myself2">
+                <img src="images/black3.png" alt="Black person 3"> 
+            </a>
+            <a href="images/img3.png" data-lightbox="models" data-title="AI1">
+                <img src="images/img3.png" alt="AI image 3">  
+            </a>
+            <a href="images/img2.png" data-lightbox="models" data-title="AI2">
+                <img src="images/img2.png" alt="AI image 2"> 
+            </a> 
         </div>
     </div>
+    <script src="lightbox-plus-jquery.js"></script>
 </body>
 </html>
