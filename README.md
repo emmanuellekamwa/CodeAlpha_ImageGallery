@@ -2,7 +2,7 @@
 
 > Working with HTML, CSS and JavaScript
 
-![screenshot](./images/screeen.png)
+![screenshot](./images/screen.png)
 
 In this project, I have designed an image gallery using HTML and CSS layout, used JavaScript for navigation (next/prev buttons, lightbox view), added hover effects and smooth transitions, ensured responsive design for different screen sizes, and added image filters or categories.
 
